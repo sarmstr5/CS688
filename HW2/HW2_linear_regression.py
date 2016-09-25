@@ -35,6 +35,8 @@ def run_descent(x, y, w, alpha, iterations):
         w = gradient_descent(x, y, w, alpha)
     return w
 
+def graph_GD(some_stuff):
+    pass
 
 w = np.ones(2)
 x_pop = x['city_population']
